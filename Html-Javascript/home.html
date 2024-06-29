@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <p>paragraph</p>
+    <button>Buttons</button>
+    <img src="" alt="">images <!-- img tag with 'src' atrribute to specify location of images -->
+    <p class="bold-text"></p> <!-- p tag with 'Class' atrribute as a ununique identifier -->
+    <p id="example"></p> <!-- p tag with 'id' atrribute as a unique identifier -->
+    <p id="demo">Demo</p>
+
+    JavaScript
+
+    <script>
+        document.getElementById("example").innerHTML="Hack the Planet ahh"
+        // document.getElementById("demo").innerHTML="Hack the Planet again!!!"
+        <button onclick='document.getElementById("demo").innerHTML = "Button Clicked";'>Click Me!</button> 
+    </script>
+
+
+    <!-- JavaScript with the src attribute: <script src="/location/of/javascript_file.js"></script> -->
+    The following JavaScript code finds a HTML element on the page with the id of "demo" and changes the element's contents to "Hack the Planet" : document.getElementById("demo").innerHTML = "Hack the Planet";
+    HTML elements can also have events, such as "onclick" or "onhover" that execute JavaScript when the event occurs. The following code changes the text of the element with the demo ID to Button Clicked: 
+    <!-- <button onclick='document.getElementById("demo").innerHTML = "Button Clicked";'>Click Me!</button> -->
+    
+    - onclick events can also be defined inside the JavaScript script tags, and not on elements directly. 
+
+</body>
+</html>
