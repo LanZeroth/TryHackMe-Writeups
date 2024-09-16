@@ -27,7 +27,8 @@ Attackers may also use social media platforms like LinkedIn, Facebook, Twitter, 
 ### Questions
 
 - What is the name of the Intel Gathering Tool that is a web-based interface to the common tools and resources for open-source intelligence?
-OSINT Framework
-Correct Answer
-What is the definition for the email gathering process during the stage of reconnaissance?
-email harvesting
+- OSINT Framework
+- Correct Answer
+- What is the definition for the email gathering process during the stage of reconnaissance?
+- email harvesting
+- Correct Answer
