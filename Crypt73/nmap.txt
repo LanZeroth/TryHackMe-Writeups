@@ -1,0 +1,34 @@
+root@ip-10-10-54-237:~# nmap 10.10.54.237
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2024-10-06 22:33 BST
+Nmap scan report for ip-10-10-54-237.eu-west-1.compute.internal (10.10.54.237)
+Host is up (0.0000080s latency).
+Not shown: 990 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+80/tcp   open     http
+81/tcp   open     hosts2-ns
+111/tcp  open     rpcbind
+389/tcp  open     ldap
+3389/tcp open     ms-wbt-server
+5901/tcp open     vnc-1
+6001/tcp open     X11:1
+7777/tcp filtered cbt
+7778/tcp filtered interwise
+
+Nmap done: 1 IP address (1 host up) scanned in 2.77 seconds
+root@ip-10-10-54-237:~# nmap 10.10.54.237 -p-400
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2024-10-06 22:35 BST
+Nmap scan report for ip-10-10-54-237.eu-west-1.compute.internal (10.10.54.237)
+Host is up (0.0000080s latency).
+Not shown: 395 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+81/tcp  open  hosts2-ns
+111/tcp open  rpcbind
+389/tcp open  ldap
+
+Nmap done: 1 IP address (1 host up) scanned in 1.54 seconds
+root@ip-10-10-54-237:~# 
